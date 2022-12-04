@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-hover: #2196f3;
+  --color-filter: #f5f4fa;
+  --color--white: #ffffff;
+  --color--nav--: #2f303a;
+}
+li {
+  list-style: none;
+}
+
+body {
+  color: var(--color-primary);
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+/* Шапка */
+.topline {
+  color: var(--color-hover);
+  font-family: Raleway;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.119;
+  letter-spacing: 0.03em;
+}
+.toplinesecond {
+  color: #000000;
+  font-family: Raleway;
+  text-decoration: none;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.back {
+  background: #f5f5f5;
+}
+/* Про нас шапка */
+.aboutus {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+}
+.aboutus:hover {
+  color: var(--color-hover);
+}
+
+.contacts {
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.142;
+  text-decoration: none;
+  display: flex;
+  padding-bottom: 12px;
+}
+.contacts:hover {
+  color: var(--color-hover);
+}
+.contactsfirst {
+  color: var(--color-secondary);
+  font-size: 14px;
+  line-height: 1.142;
+  text-decoration: none;
+  display: flex;
+}
+.contactsfirst:hover {
+  color: var(--color-hover);
+}
+/* Бааадііі */
+.hero-title {
+  color: var(--color--white);
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.hero-section {
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+header{
+  height: 80px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+
+  color: var(--color--white);
+  background-color: var(--color-hover);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.filter {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px ;
+}
+.filtersection{
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+.buttontwopage {
+  color: var(--color-primary);
+  background-color: var(--color-filter);
+  border-color: var(--color-filter);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  padding: 6px 22px;
+}
+.buttontwopage:hover {
+  color: var(--color--white);
+  background-color: var(--color-hover);
+  border-color: var(--color-hover);
+}
+
+/* Наші переваги */
+.whyso {
+  color: var(--color-secondary);
+  width: 270px;
+  margin: 0;
+}
+
+.ourwork {
+  color: var(--color-primary);
+  margin: 0;
+  margin-bottom: 50px;
+}
+.our-team {
+  background: var(--color-filter);
+  padding-bottom: 94px;
+}
+.comand {
+  margin-bottom: 50px;
+}
+.comand-team {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+.personas {
+  background-color: var(--color--white);
+}
+
+.comand {
+  color: var(--color-primary);
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.name-employee {
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.employee {
+  color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.whyso {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.ourwork {
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--color--white);
+  letter-spacing: 0.03em;
+}
+
+
+.description {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin: 0;
+  padding-bottom: 4px;
+}
+.position {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: var(--color--nav--);
+}
+.studiofooter {
+  color: var(--color--white);
+  font-family: Raleway;
+  text-decoration: none;
+}
+.adres {
+  color: var(--color--white);
+}
+.sitenav {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+.sitenav .item {
+  margin-right: 50px;
+}
+.sitenav .item:last-child {
+  margin-right: 0;
+}
+.sitenav .aboutus {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+  padding: 0;
+}
+
+.auth-nav .item + .item {
+  margin-left: 40px;
+}
+.topline {
+  margin-right: 93px;
+}
+.ouradvantages-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.ouradvantages-item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.image-item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.image-main {
+  padding-bottom: 94px;
+}
+
+.toplineseconds {
+  color: var(--color--white);
+  padding-bottom: 28px;
+}
+.cardstitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+.bordercard {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid #eeeeee;
+}
+.cards {
+  padding-bottom: 94px;
+}
+.footeritem {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+address .contacts:last-child {
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.nameposition{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
